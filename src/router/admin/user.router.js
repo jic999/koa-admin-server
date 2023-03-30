@@ -20,4 +20,6 @@ router.get('/list', auth, authorizeAdmin, userController.list)
 
 router.post('/page', auth, authorizeAdmin, userValidator.page, userController.page)
 
+// TODO 照片墙上传接口
+
 module.exports = router
